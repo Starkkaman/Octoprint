@@ -4,8 +4,8 @@ Wants = network-online.target
 After = network.target network-online.target
 
 [Service]
-User = pi
-ExecStart = /home/pi/OctoPrint/bin/octoprint serve
+User = biqu
+ExecStart = /home/biqu/OctoPrint/bin/octoprint serve
 RemainAfterExit = no
 Restart = on-failure
 RestartSec = 5s
